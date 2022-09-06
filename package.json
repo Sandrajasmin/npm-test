@@ -1,19 +1,25 @@
 {
   "name": "npm-test",
   "version": "1.0.0",
-  "description": "npm init",
+  "description": "## 1. Terminal clone repo Ls- se where you are CD - find the folder you want your repo to be saved Git clone with link",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sandrajasmin/npm-test.git"
   },
-  "author": "Sandy Yoyo",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sandrajasmin/npm-test/issues"
   },
-  "homepage": "https://github.com/Sandrajasmin/npm-test#readme"
+  "homepage": "https://github.com/Sandrajasmin/npm-test#readme",
+  "devDependencies": {
+    "vite": "^3.1.0"
+  }
 }
